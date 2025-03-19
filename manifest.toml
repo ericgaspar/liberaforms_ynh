@@ -69,8 +69,6 @@ ram.runtime = "50M"
     url = "https://gitlab.com/liberaforms/liberaforms/-/archive/v4.0.0/liberaforms-v4.0.0.tar.gz"
     sha256 = "a37e6198b79dedf97efc95272cc87ccc265476ecc760b8c54a7d131b01607e8a"
 
-    # autoupdate.strategy = "latest_github_tag"
-
     [resources.system_user]
 
     [resources.install_dir]
@@ -81,6 +79,7 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.ports]
+    main.default = 5000
 
     [resources.apt]
     packages = "postgresql, python3-venv, python3-dev, gcc, libpq-dev, mime-support, libcairo2"
