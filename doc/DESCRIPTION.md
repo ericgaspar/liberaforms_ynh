@@ -1,1 +1,2 @@
-This is a dummy description of this app features
+LiberaForms is an easy to use software for creating and managing simple web Forms and
+their Answers (collected data).
